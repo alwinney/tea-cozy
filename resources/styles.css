@@ -1,0 +1,118 @@
+body {
+  background-color: black;
+  opacity: 0.9;
+  margin: 0 auto;
+  font-family: helvetica;
+  font-size: 22px;
+  color: seashell;
+  width: 100%;
+
+  }
+
+/*Header and nav*/
+
+
+.header {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  background-color: black;
+  width: 100%;
+}
+
+.logo {
+  padding-left: 10px;
+  flex-grow: 1;
+  }
+
+.logo img {
+  height: 50px;
+}
+
+nav span {
+  margin-right: 10px;
+}
+
+a {
+  color: seashell;
+  text-decoration: underline;
+}
+
+/*Our Mission*/
+
+.container {
+  height: 700px;
+  width: 1200px;
+  background-color: WhiteSmoke;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  background-image: url('../images/img-mission-background.jpg');
+  margin: 0 auto;
+}
+
+.container2 {
+  height: 105px;
+  width: 1200px;
+  background-color: black;
+  border: 2px solid lightgrey;
+}
+
+
+#center {
+	align-items: center;
+}
+
+.text_h2 {
+  margin: 10px;
+}
+
+.text_h3 {
+  margin: 15px;
+}
+
+/*Tea of the month*/
+.container3 {
+  text-align: center;
+}
+
+/*Locations*/
+.container4 {
+  height: 500px;
+  width: 1200px;
+  background-color: WhiteSmoke;
+  background-image: url('../images/img-locations-background.jpg');
+  background-position: center;
+  margin: 0 50px;
+}
+
+/*the tea cozy*/
+.container5 {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+}
+
+.container6 {
+  top: 0px;
+  display: flex;
+  justify-content: center;
+
+}
+
+
+.centredtext {
+  height: 200px;
+  width: 300px;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: -140px;
+}
+
+.images img {
+  height: 200px;
+  width: 300px;
+  padding-right: 30px
+  }
